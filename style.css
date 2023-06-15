@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+}
+
+.section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-margin-top {
+  margin-top: 30px;
+}
+
+.container {
+  width: 1120px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-link a {
+  color: black;
+}
+
+.nav-discord a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+.hero-spacing-top {
+  margin-top: 40px;
+}
+
+.hero-background {
+  width: 1229px;
+  height: 509px;
+  border-radius: 24px;
+  position: absolute;
+  background: #f1f0ff;
+}
+
+.hero-background img {
+  position: absolute;
+  left: 509px;
+}
+
+.div-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 131px 0px 131px 0px;
+}
+
+.title-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.div-1 h1 {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+}
+
+.div-1 p {
+  line-height: 150%;
+}
+
+.italic-purple {
+  font-style: italic;
+  color: #564cea;
+}
+
+.buttons-hero {
+  display: flex;
+  gap: 18px;
+}
+
+.buttons-hero a {
+  display: flex;
+  border-radius: 4px;
+  padding: 10px 16px 10px 20px;
+}
+
+.button-filled {
+  display: flex;
+  gap: 8px;
+  color: #ffffff;
+  background: #564cea;
+  font-weight: 500;
+}
+
+.button-transparent {
+  display: flex;
+  gap: 8px;
+  background: transparent;
+  color: black;
+  border: 1px solid #000000;
+  font-weight: 500;
+}
