@@ -51,7 +51,7 @@ body * {
   color: black;
 }
 
-.hero-spacing-top {
+.hero-margin-top {
   margin-top: 40px;
 }
 
@@ -122,4 +122,35 @@ body * {
   color: black;
   border: 1px solid #000000;
   font-weight: 500;
+}
+
+.info-margin-top {
+  margin-top: 60px;
+}
+
+.info-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.images-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
