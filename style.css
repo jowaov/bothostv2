@@ -223,3 +223,127 @@ body * {
   font-size: 18px;
   line-height: 150%;
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .nav-margin-top {
+    margin-top: 20px;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-margin-top {
+    margin-top: 40px;
+    padding: 30px 0px;
+  }
+
+  .hero-background {
+    height: 100%;
+  }
+
+  .hero-background img {
+    height: 100%;
+  }
+
+  .div-1 {
+    margin: auto 0px;
+    width: 100%;
+  }
+
+  .div-1 h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .div-1 p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .buttons-hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-margin-top {
+    margin-top: 40px;
+  }
+
+  .images-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .line1-margin-top {
+    margin-top: 40px;
+  }
+
+  .details-margin-top {
+    margin-top: 40px;
+  }
+
+  .details-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .div-details-img {
+    width: 100%;
+  }
+
+  .div-details-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .iconsize {
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-details-text {
+    width: 100%;
+  }
+
+  .config-details-pai h1 {
+    font-size: 28px;
+  }
+
+  .config-details-pai p {
+    font-size: 16px;
+  }
+
+  .config-details-filhos h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .config-details-filhos p {
+    font-size: 16px;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
