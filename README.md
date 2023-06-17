@@ -12,5 +12,7 @@ practicing html + css on bothost re-design
 <br>
 
 <p align="center">
-  <img alt="bothost nav-hero presentation" src=".github/presentation.png" width="100%">
+  <a href="https://v2.bothost.pages.dev/" target="_blank">
+    <img alt="bothost nav-hero presentation" src=".github/presentation.png" width="100%">
+  </a
 </p>
