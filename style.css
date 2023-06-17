@@ -96,6 +96,10 @@ body * {
   color: #564cea;
 }
 
+.purple-text {
+  color: #564cea;
+}
+
 .buttons-hero {
   display: flex;
   gap: 18px;
@@ -153,4 +157,69 @@ body * {
   justify-content: center;
   align-items: center;
   gap: 60px;
+}
+
+.line1-margin-top {
+  margin-top: 60px;
+}
+
+.line hr {
+  opacity: 0.1;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.details-margin-top {
+  margin-top: 80px;
+}
+
+.details-wrap {
+  display: flex;
+  gap: 96px;
+}
+
+.div-details-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.iconsize {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  width: 28px;
+  height: 28px;
+}
+
+.div-details-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.config-details-pai {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.config-details-filhos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 8px;
+}
+
+.t1p1 h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.config-details-filhos h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
 }
