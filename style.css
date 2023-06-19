@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+#dashed-links {
+  text-decoration: underline;
+}
+
 body * {
   font-family: "Inter", sans-serif;
 }
@@ -173,6 +177,10 @@ body * {
 
 .line1-margin-top {
   margin-top: 60px;
+}
+
+.line2-margin-top {
+  margin-top: 80px;
 }
 
 .line hr {
@@ -382,6 +390,27 @@ body * {
   font-weight: 600;
 }
 
+.higher-specs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hspecs-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.accepted-payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
 @media screen and (max-width: 768px) {
   .section {
     width: 100%;
@@ -457,6 +486,10 @@ body * {
     margin-top: 40px;
   }
 
+  .line2-margin-top {
+    margin-top: 40px;
+  }
+
   .details-margin-top {
     margin-top: 40px;
   }
@@ -505,5 +538,27 @@ body * {
   .reverse {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .servers-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .server-list-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hspecs-text {
+    text-align: center;
   }
 }
