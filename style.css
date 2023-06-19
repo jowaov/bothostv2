@@ -316,19 +316,18 @@ body * {
 }
 
 .server-details-1 {
-  display: flex;
   margin-top: 16px;
 }
 
 .details-white {
   display: flex;
   flex-direction: column;
+  gap: 6px;
 }
 
 .details-list {
   display: flex;
   gap: 8px;
-  padding: 6px 0px;
 }
 
 .server-details-1 p {
@@ -343,12 +342,12 @@ body * {
   font-weight: 500;
 }
 
-.bold-hyperv {
-  font-weight: 600;
-}
-
 .hyperv-optional {
   margin-top: 14px;
+}
+
+.bold-hyperv {
+  font-weight: 600;
 }
 
 .hyperv p {
