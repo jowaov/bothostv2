@@ -96,8 +96,20 @@ body * {
   color: #564cea;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .purple-text {
   color: #564cea;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.opacity {
+  opacity: 0.7;
 }
 
 .buttons-hero {
@@ -222,6 +234,152 @@ body * {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
+}
+
+.server-margin-top {
+  margin-top: 120px;
+}
+
+.servertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.servertext h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.servertext p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.server-list {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.server-list-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.server-white {
+  padding: 0px 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.server-purple {
+  padding: 0px 20px 20px;
+  border: 1px solid #564cea;
+  border-radius: 8px;
+  background: #564cea;
+}
+
+.servername {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 27px 0px 21px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.serveprice-description h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.serveprice-description p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.server-details-1 {
+  display: flex;
+  margin-top: 16px;
+}
+
+.details-white {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-list {
+  display: flex;
+  gap: 8px;
+  padding: 6px 0px;
+}
+
+.server-details-1 p {
+  line-height: 130%;
+}
+
+.opacity-server-details {
+  opacity: 0.7;
+}
+
+.bold-server-details {
+  font-weight: 500;
+}
+
+.bold-hyperv {
+  font-weight: 600;
+}
+
+.hyperv-optional {
+  margin-top: 14px;
+}
+
+.hyperv p {
+  line-height: 200%;
+}
+
+.hyperv-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-white {
+  background: #d9d7f7;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.button-purple {
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 40px;
+  background: #ffffff;
+}
+
+.button-white a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.button-purple a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
